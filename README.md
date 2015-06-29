@@ -1,7 +1,20 @@
 ## A template project for TDD workshop in JavaScript
 
-This template project uses [Jasmine] (http://jasmine.github.io/)
+This template project uses [Jasmine](http://jasmine.github.io/) and [Karma](http://karma-runner.github.io/)
 
+## Getting started with Jasmine tests
+- Clone the repository
+- Run `git checkout base-jasmine`
+
+## Getting started with Karma
+- Install `Node.js`. This is required because we want to use `npm` to install `karma` packages. Please refer to [this link](https://docs.npmjs.com/getting-started/installing-node) for help
+- Clone the repository
+- Run `git checkout base-karma`
+- Run `npm install karma karma-jasmine karma-chrome-launcher karma-firefox-launcher --save-dev`
+- Run `npm install -g karma-cli`
+- Run `karma start`
+
+## Stories
 Following are the stories we can use for the workshop
 
 - As a driver, I want to park my car, So that I can catch my flight
